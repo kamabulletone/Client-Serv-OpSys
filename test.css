@@ -1,0 +1,85 @@
+.image-laptop {
+    background-position: center;
+    background-size: cover;
+
+}
+
+.windows {
+    background-image: url(./Windows/WindowsLogos/bigwindows.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-text-space {
+    width: 50%;
+}
+
+.apple {
+    background-image: url(./MacOS/AppleLogos/AppleLogo2200.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linux {
+    background-image: url(./Linux/LinuxLogos/LinuxLarge.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.intText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.6666666667%;
+}
+
+.text-font {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+@media (max-width: 380px) {
+    .intText {
+        width: 100%;
+    }
+    
+}
+
+.dark-block {
+    background-color: rgba(0, 0, 0, 35%);
+    z-index: -1;
+}
+.header-lead {
+    font-size: 1.35rem;
+}
+
+@media (min-width: 1300px) {
+    .windows {
+        background-image: url(./Windows/WindowsLogos/bigWindows3800.jpg);
+        padding-top: 7%!important;
+        padding-bottom: 7%!important;
+
+    }
+
+    .apple {
+        background-image: url(./MacOS/AppleLogos/AppleLogo2500.jpg);
+        padding-top: 7%!important;
+        padding-bottom: 7%!important;
+    }
+
+    .linux {
+        background-image: url(./Linux/LinuxLogos/Linux2100.jpg);
+        padding-top: 7%!important;
+        padding-bottom: 7%!important;
+    }
+    
+}
+
+

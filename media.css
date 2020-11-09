@@ -1,0 +1,119 @@
+
+
+
+@media (min-width: 761px) {
+    
+    .btn {
+        width: 30%;
+        min-width: 200px;;
+        height: 50%;
+    }
+    
+}
+
+@media (max-width: 761px) {
+    
+    
+    .btn {
+        width: 70%;
+        max-width: 280px;
+        height: 60%;
+        margin-top: 1.5%;
+    }
+    
+  }
+
+  @media (min-width:576px) and (max-width: 992px)  {
+    
+    
+    .btn {
+        width: 70%;
+        max-width: 280px;
+        height: 60%;
+        margin-top: 1.5%;
+    }
+
+    .windows {
+        background-image: url(./Windows/WindowsLogos/bigwindowsSmall.png);
+        padding-top: 0%!important;
+        padding-bottom: 0%!important;
+
+    }
+
+    .apple {
+        background-image: url(./MacOS/AppleLogos/AppleLogo900.jpg);
+        padding-top: 0%!important;
+        padding-bottom: 0%!important;
+    }
+
+    .linux {
+        background-image: url(./Linux/LinuxLogos/Linux844.jpg);
+        padding-top: 0%!important;
+        padding-bottom: 0%!important;
+    }
+
+
+    
+  }
+
+  @media (max-width: 576px) {
+    
+    /* .white-shadow {
+        font-size: 2vmin;
+    } */
+    
+    .btn {
+        width: 70%;
+        height: 60%;
+        margin-top: 1.5%;
+    }
+
+
+    /* img {
+        width: 100%;
+        height: 380px;
+    } */
+  }
+
+  @media (min-width: 991px) {
+
+    
+    /* .btn {
+        width: 14vw;
+        height: 40px;
+    } */
+    
+  }
+
+  @media (min-width: 1200px) {
+
+   
+    
+    /* .btn {
+        width: 14vw;
+        height: 40px;
+    } */
+
+    
+  }
+
+  @media (max-width: 420px) {
+    
+    /* .white-shadow {
+        font-size: 2vmin;
+    } */
+    
+    .btn {
+
+        width: 70%;
+        height: 60%;
+    }
+
+    /* img {
+        width: 100%;
+        height: 380px;
+    } */
+  }
+
+ 
+

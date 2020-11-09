@@ -1,0 +1,54 @@
+html,body {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    background-image: url(./Laptops/laptopOnDesk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+body {
+    backdrop-filter: blur(9px);
+    
+}
+
+.main {
+    width: 66.6666667%;
+    
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+    background-image: -o-linear-gradient(left, #fff, #000, #fff);
+    }
+
+@media (max-width: 576px) {
+    .main {
+        width: 100%;
+        margin: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        padding-top: 0!important;
+    }
+    ul {
+        margin-left: 0; 
+        padding-left: 0; 
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+
+
