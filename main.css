@@ -39,7 +39,7 @@ html,body {
 .image-laptop {
     background-image: url(AnotherLaptop.jpg);
     background-image: url(LaptopLg.jpg);
-    background-image: url(LaptopSm.jpg);
+    background-image: url(./Laptops/LaptopSm.jpg);
 
     background-size: 100%;
     
